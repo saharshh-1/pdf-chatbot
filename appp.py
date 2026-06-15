@@ -14,7 +14,7 @@ from pypdf.errors import DependencyError, PdfReadError
 load_dotenv()
 
 
-CHAT_MODEL = os.getenv("OPENAI_MODEL", "gpt-5.4-mini")
+CHAT_MODEL = os.getenv("OPENAI_MODEL", "gpt-5-mini")
 EMBEDDING_MODEL = os.getenv("OPENAI_EMBEDDING_MODEL", "text-embedding-3-small")
 MAX_CONTEXT_CHUNKS = 5
 MIN_USEFUL_TEXT_CHARS = 20
